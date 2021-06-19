@@ -1,0 +1,245 @@
+/******************* 头部区域********* */
+#header{
+    width: 100%;
+    height: 122px;
+    border-bottom: 1px solid #999;
+}
+.header-con{
+    width: 1090px;
+    height: 122px;
+    margin: 0 auto;
+}
+.head-one{
+    width: 1090px;
+    height: 27px;
+}
+
+.head_{
+    width: 300px;
+    height: 27px;
+    float: right;
+}
+.head_>span{
+    font-size: 12px;
+    color: #999;
+    height: 27px;
+    line-height: 27px;
+    display: block;
+    float: left;
+}
+.head_ a{
+    font-size: 12px;
+    color: #F0145B;
+    margin-left: 15px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    float: left;
+}
+.head-two{
+    width: 1090px;
+    height: 94px;
+}
+.head1{
+    width: 545px;
+    height: 94px;
+    float: left;
+}
+.head1>a{
+    width: 154px;
+    height: 94px;
+    float: left;
+}
+.head1>p{
+    text-indent: 1em;
+    padding-top: 25px;
+    height: 17px;
+    font-size: 17px;
+}
+.head1>span{
+    padding-left: 18px;
+    font-size: 14px;
+    height: 14px;
+    color: #999;
+}
+.head2{
+    margin-top: 15px;
+    width: 377px;
+    height: 48px;
+    float: right;
+    background:url(../img/order_path.png) no-repeat;
+    background-position: -2px -2px;
+}
+/* 中间购物车部分 */
+
+#main{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#main p {
+    font-weight: bold;
+    font-size:21px;
+    margin-bottom: 20px;
+    text-align: left;	
+}
+
+.priceTite{
+    font-size: 14px;
+    color: #4c4c4c;
+    position: absolute;
+    right: 530px;
+    bottom:0px;
+}
+
+.countTite{
+    font-size: 14px;
+    color: #4c4c4c;
+    position: absolute;
+    right: 212px;
+    bottom:0px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr{
+    border-top: 1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    padding:10px;
+    opacity: .9;
+}
+
+td{
+    padding-left: 20px;
+    width: 150px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.infon{
+    width: 450px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.pic img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+}
+.infon .name{
+    font-size: 16px;
+    color:#375d8a;
+    font-weight: bold;
+}
+
+.infon .name span{
+    font-size: 12px;
+    color:#0f171a;
+    font-weight: normal;
+}
+
+.infon .style{
+    color:#8e8d88;
+}
+
+.infon .sendTime{
+    color: #a95d2c;
+}
+
+.price{
+    color:#a11d00;
+    font-weight: bold;
+    width: 200px;
+    font-size:16px;
+    vertical-align: middle;
+}
+
+.bTn{
+    text-align: center;
+    width: 60px;
+    height: 30px;
+    padding-left:10px;
+    background-color: #eff0f2;
+    border:1px solid gray;
+    border-radius: 2px;
+}
+#total{
+    float:right;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+}
+
+#totalMoneyS{
+    color:#a11d00;
+}
+
+
+/* 最后一部分 */
+ #copyF{
+    margin-top: 100px;
+    width: 100%;
+    height: 126px;
+    background: #F2F2F2;
+}
+.copyF-con{
+width: 1090px;
+height: 126px;
+margin: 0 auto;
+text-align: center;
+}
+.copyF-con p{
+    width: 100%;
+    height: 12px;
+    font-size: 12px;
+    color: #999;
+    padding-top: 8px;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+.copyF-con span{
+    color: #999;
+    font-size: 12px;
+}
+#Test2{
+    width: 100%;
+    height: 12px;
+    color: #999;
+    font-size: 12px;
+    padding-top: 8px;
+}
+.copyF-con>.Imgi{
+    width: 1090px;
+    height: 51px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.Imgi>a:nth-child(1){
+    background: url(../img/footer_btm_icon.png) no-repeat;
+    background-position: 0 0px;
+}
+.Imgi>a:nth-child(2){
+    background: url(../img/footer_btm_icon.png) no-repeat;
+    background-position:-126px 0;
+}
+.Imgi>a:nth-child(3){
+    background: url(../img/footer_btm_icon.png) no-repeat;
+    background-position: -252px 0;
+}
+.Imgi>a:nth-child(4){
+    background: url(../img/footer_btm_icon.png) no-repeat;
+    background-position: -378px 0;
+}
+.Imgi>a:nth-child(5){
+    background: url(../img/footer_btm_icon.png) no-repeat;
+    background-position: -508px 0;
+}
+.copyF-con>.Imgi>a{
+   display: inline-block;
+   width: 127px;
+    height: 51px;
+}

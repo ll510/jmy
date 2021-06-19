@@ -1,0 +1,341 @@
+@charset "UTF-8";
+/* 头部 区域 */
+#header {
+  width: 100%;
+  height: 150px;
+}
+
+.header-con {
+  margin: 0 auto;
+  width: 1206px;
+  height: 150px;
+}
+
+h1 {
+  text-indent: -7777px;
+}
+
+.header-con a {
+  display: block;
+  width: 154px;
+  height: 57px;
+  float: left;
+}
+
+.header-con > :nth-child(1) {
+  margin-right: 540px;
+  margin-top: 5px;
+  background: url(../img/logo_03.jpg) no-repeat left;
+}
+
+.header-con > :nth-child(2) {
+  margin-right: 10px;
+  margin-top: 10px;
+  background: url(../img/gild2_03.jpg) no-repeat left;
+}
+
+.header-con > :nth-child(3) {
+  margin-right: 20px;
+  margin-top: 10px;
+  background: url(../img/gild.png) no-repeat left;
+}
+
+.header-con > :nth-child(4) {
+  margin-top: 10px;
+  background: url(../img/gild3_03.jpg) no-repeat left;
+}
+
+/* 中间区域 */
+#main {
+  width: 100%;
+  height: 448px;
+}
+
+.main-con {
+  margin: 0 auto;
+  width: 1206px;
+  height: 448px;
+}
+
+#car {
+  margin-top: 10px;
+  display: block;
+  width: 960px;
+  height: 370px;
+  background: url(../img/loginPic.jpg) no-repeat left;
+  float: left;
+  cursor: pointer;
+  position: relative;
+}
+
+.login {
+  width: 310px;
+  position: absolute;
+  height: 407px;
+  padding: 0 23px;
+  color: #333;
+  right: 158px;
+  border: 1px solid #ededed;
+  background: white;
+}
+
+.login1 {
+  margin-bottom: 15px;
+  line-height: 60px;
+  float: right;
+  color: #969696;
+  font-size: 12px;
+}
+
+#a {
+  color: red;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+h2 {
+  margin-top: 15px;
+  color: red;
+  font-size: 18px;
+}
+
+/* 用户名及密码 */
+#un {
+  box-shadow: none;
+  border: 1px solid #cfcfcf;
+  background-color: white;
+  padding: 10px 8px;
+  line-height: 1.5;
+  font-size: 14px;
+  height: auto;
+  width: 282px;
+  margin-top: 10px;
+}
+
+#pwd {
+  border: 1px solid #cfcfcf;
+  background-color: white;
+  padding: 10px 8px;
+  line-height: 1.5;
+  font-size: 14px;
+  width: 220px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.mobileBtn {
+  border: 1px solid #cfcfcf;
+  background-color: #F5F5F5;
+  padding: 10px 8px;
+  line-height: 1.5;
+  font-size: 14px;
+  width: 58px;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* 自动登录按钮 */
+.option {
+  width: 100%;
+  height: 30px;
+  margin-top: 12px;
+}
+
+.option input {
+  width: 15px;
+  height: 18px;
+  margin-top: 5px;
+  float: left;
+}
+
+.option span {
+  font-size: 10px;
+}
+
+.forget {
+  width: 100%;
+  height: 10px;
+  margin-left: 177px;
+}
+
+#line1 {
+  border: 1px solid #cfcfcf;
+  background-color: white;
+  padding: 10px 8px;
+  line-height: 1.5;
+  font-size: 14px;
+  outline: 0;
+  width: 156px;
+  float: left;
+  margin-right: 8px;
+  margin-top: 20px;
+}
+
+.yes {
+  width: 310px;
+  height: 60px;
+  margin-bottom: 8px;
+}
+
+/* 登陆 */
+#submitBtn {
+  display: inline-block;
+  font-family: inherit;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  font-weight: 700;
+  background: #f8296d;
+  padding: 0 138px;
+  color: white;
+  border: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.canB {
+  width: 100%;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.app_ {
+  width: 300px;
+  height: 43px;
+}
+
+.more {
+  float: left;
+}
+
+.app_ {
+  width: 300px;
+  height: 43px;
+  float: left;
+  margin-top: 10px;
+}
+
+.app_ i {
+  display: block;
+  width: 43px;
+  height: 43px;
+  float: left;
+  margin-left: 5px;
+}
+
+.app_ i:nth-child(1) {
+  background: url(../img/icon_light.jpg) no-repeat;
+  background-position: 0 0;
+}
+
+.app_ i:nth-child(2) {
+  background: url(../img/icon_light.jpg) no-repeat;
+  background-position: -56px 0;
+}
+
+.app_ i:nth-child(3) {
+  background: url(../img/icon_light.jpg) no-repeat;
+  background-position: -114px 0;
+}
+
+.app_ i:nth-child(4) {
+  background: url(../img/icon_light.jpg) no-repeat;
+  background-position: -168px 0;
+}
+
+.app_ i:nth-child(5) {
+  background: url(../img/icon_light.jpg) no-repeat;
+  background-position: -223px 0;
+}
+
+.more-text {
+  font-size: 10px;
+  float: left;
+  margin-top: 14px;
+  margin-left: 5px;
+}
+
+.more {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+/* 底部区域 */
+#footer {
+  width: 100%;
+  height: 140px;
+}
+
+.footer-con {
+  margin: 0 auto;
+  width: 1206px;
+  height: 140px;
+}
+
+.copyF {
+  line-height: 23px;
+  color: #999;
+  padding: 14px 0 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+#text4 {
+  line-height: 23px;
+  font-size: 12px;
+  color: #999;
+  margin-left: 250px;
+}
+
+#text5 {
+  line-height: 23px;
+  font-size: 12px;
+  color: #999;
+}
+
+#end1 {
+  line-height: 23px;
+  font-size: 12px;
+  text-align: center;
+  color: #999;
+  cursor: pointer;
+}
+
+.footer-con > .Imgi {
+  width: 1090px;
+  height: 51px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Imgi > i:nth-child(1) {
+  background: url(../img/footer_btm_icon.png) no-repeat;
+  background-position: 0 0px;
+}
+
+.Imgi > i:nth-child(2) {
+  background: url(../img/footer_btm_icon.png) no-repeat;
+  background-position: -126px 0;
+}
+
+.Imgi > i:nth-child(3) {
+  background: url(../img/footer_btm_icon.png) no-repeat;
+  background-position: -252px 0;
+}
+
+.Imgi > i:nth-child(4) {
+  background: url(../img/footer_btm_icon.png) no-repeat;
+  background-position: -378px 0;
+}
+
+.Imgi > i:nth-child(5) {
+  background: url(../img/footer_btm_icon.png) no-repeat;
+  background-position: -508px 0;
+}
+
+.Imgi > i {
+  display: inline-block;
+  width: 127px;
+  height: 51px;
+  border-bottom: 1px solid #ccc;
+}
